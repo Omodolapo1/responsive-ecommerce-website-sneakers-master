@@ -567,6 +567,10 @@ img {
     grid-template-columns: max-content max-content;
   }
 
+  .nav__logo {
+    font-size: 20px;
+  }
+
   .offer__data {
     text-align: center;
   }
@@ -575,85 +579,105 @@ img {
     align-items: center;
   }
 }
+
 @media screen and (min-width: 768px) {
-  body{
+  body {
     margin: 0;
   }
-  .section{
+
+  .section {
     padding: 7rem 0 3rem;
   }
-  .section-title::after{
+
+  .section-title::after {
     width: 76px;
   }
-  .nav{
+
+  .nav {
     height: calc(var(--header-height) + 1.5rem);
   }
-  .nav__menu{
+
+  .nav__menu {
     margin-left: auto;
   }
-  .nav__list{
+
+  .nav__list {
     display: flex;
   }
-  .nav__item{
+
+  .nav__item {
     margin-left: var(--mb-6);
     margin-bottom: 0;
   }
-  .nav__logo{
+
+  .nav__logo {
     font-size: 20px;
   }
-  .nav__toggle{
+
+  .nav__toggle {
     display: none;
   }
-  .home__container{
+
+  .home__container {
     height: 100vh;
     grid-template-columns: max-content max-content;
     justify-content: center;
     align-content: center;
   }
-  .home__sneaker{
+
+  .home__sneaker {
     order: 1;
   }
-  .home__shape{
+
+  .home__shape {
     width: 376px;
     height: 376px;
   }
-  .home__img{
+
+  .home__img {
     width: 470px;
     top: 3.5rem;
     left: -3rem;
     right: 0;
   }
-  .newsletter__container{
+
+  .newsletter__container {
     grid-template-columns: max-content max-content;
     justify-content: center;
     align-items: center;
     padding: 4.5rem 2rem;
     column-gap: 3rem;
   }
-  .newsletter__description{
+
+  .newsletter__description {
     margin-bottom: 0;
   }
-  .newsletter__subscribe{
+
+  .newsletter__subscribe {
     width: 360px;
     height: max-content;
   }
 }
+
 @media screen and (min-width: 1024px) {
-  .bd-grid{
+  .bd-grid {
     margin-left: auto;
     margin-right: auto;
   }
-  .home__container{
+
+  .home__container {
     column-gap: 8rem;
   }
-  .collection__container{
+
+  .collection__container {
     grid-template-columns: repeat(2, 415px);
   }
 
-  .newsletter__container{
+  .newsletter__container {
     grid-template-columns: max-content 1fr;
   }
-  .nav__menu{
+
+  .nav__menu {
     align-items: initial;
     justify-content: flex-end;
     padding: 4rem 2rem;
