@@ -568,7 +568,7 @@ img {
   }
 
   .nav__logo {
-    font-size: 20px;
+    font-size: 10px;
   }
 
   .offer__data {
@@ -677,7 +677,7 @@ img {
     grid-template-columns: max-content 1fr;
   }
 
-  .nav__menu {
+  .new__mens {
     align-items: initial;
     justify-content: flex-end;
     padding: 4rem 2rem;
